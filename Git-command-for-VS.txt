@@ -1,1 +1,17 @@
-HI
+Go to Extension - Search "Github Pull request" -> Install it. -> Login GitHub from bottom left second icon.
+Create a Directory in your local machine
+Go to Source control Icon Click on "Initialize repo" or you can type in Terminal "git init"
+For test click create a new file
+Now type something in this means make changes inthe files. 
+NOw stage the file (Save the file in Local repo means your system folder) "git add . 
+NOw commit the file (git -commit -n "name of file" -m "Message" / git -commit -a -m "message" [-a for all the file])
+NOw beed to push file to global repo, for this we need remote, remote is a pipeline which help us to connect with global repo
+    1. Copy the remote repo URL
+    2. Navigate to the VS Code terminal 
+    3. Run git remote add origin <paste the URL> and hit Enter
+or click on "..." remote-> add remote on search put the URL "https://github.com/sammardhiman/PythonPractice-.git" -> Name the remote "origin" -> ENter 
+Last push the file in local repo - git push -u origin main / master  
+
+
+
+
